@@ -121,3 +121,50 @@ float lerSensor(int pin, int numLeituras = 5) {
     return soma / numLeituras;
 }
 
+## Algoritmo (Resolver um Problema)
+
+Um algoritmo é o plano de ação para solucionar um determinado problema.
+
+ Exemplo de uma sequência de leitura de um sensor de umidade e temperatura:
+
+- 1. Inicializar todos os sensores e a comunicação serial.
+- 2. Loop principal:
+   2.1. Ler a umidade do solo.
+   2.2. Ler a temperatura.
+   2.3. Se a umidade for menor que 30%, ligar a bomba.
+   2.4. Se não, desligar a bomba.
+   2.5. Enviar os dados (umidade, temperatura) para a nuvem (ou armazenar localmente).
+   2.6. Esperar 5 minutos antes de repetir.
+
+- O código em Python (simulação) seria assim: 
+
+import time
+
+def ler_umidade():
+    return 28.5
+
+def ler_temperatura():
+    return 26.3
+
+def ligar_bomba():
+    print("Bomba ligada!")
+
+def desligar_bomba():
+    print("Bomba desligada!")
+
+def enviar_dados(u, t):
+    print(f"Enviando: Umidade={u:.1f}%, Temp={t:.1f}°C")
+
+Algoritmo principal
+
+while True:
+    umidade = ler_umidade()
+    temperatura = ler_temperatura()
+
+    if umidade < 30:
+        ligar_bomba()
+    else:
+        desligar_bomba()
+
+    enviar_dados(umidade, temperatura)
+    time.sleep(300)
