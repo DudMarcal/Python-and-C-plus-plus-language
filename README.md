@@ -2,7 +2,7 @@
 ## Passo a passo para aprender Python e C++
 
 ## Variáveis (Guardar os Dados) 
-No #Python# a tipagem é dinâmica. Python é flexível, não precisa declarar o tipo de variável. 
+No Python a tipagem é dinâmica. Python é flexível, não precisa declarar o tipo de variável. 
 
 - Cria uma variável chamada 'umidade' e guarda um número
 umidade = 45.2
@@ -24,7 +24,7 @@ Já para C++ que é tipagem estática, precisa-se declarar o tipo da variável a
 
 ## Condicionais (Tomar Decisões)
 
-# Para o Python: 
+ Para o Python: 
 
 umidade = ler_sensor()
 
@@ -35,7 +35,7 @@ elif umidade < 50:
 else:
     print("Solo molhado")  # Ação se todas as anteriores forem falsas
 
-# Para C++
+Para C++
 
 float umidade = lerSensor();
 
@@ -51,7 +51,7 @@ if (umidade < 30) {
 
 ## Loops (Repetir Ações)
 
-# Para Python
+- Para Python
 Loop 'for' para repetir um número fixo de vezes
 
 for i in range(5):
@@ -64,7 +64,7 @@ while contador < 10:
     print(f"Contador: {contador}")
     contador += 1
 
-# Para C++
+ - Para C++
 
  Loop 'for' para repetir 10 leituras
 
@@ -89,7 +89,7 @@ Serial.println(" ms");
 
 ## Funções (Organizar o Código)
 
-# Para Python
+ - Para Python
 Função que não retorna valor
 
 def saudacao():
@@ -103,7 +103,7 @@ def ler_sensor(pin, num_leituras=5):
         soma += analogRead(pin)
     return soma / num_leituras
 
-# Para C++ 
+- Para C++ 
 Função que não retorna valor (void)
 
 void saudacao() {
