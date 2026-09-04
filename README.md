@@ -14,10 +14,10 @@ print(umidade)
 
 Já para C++ que é tipagem estática, precisa-se declarar o tipo da variável antes de usá-la.
 
-float umidade = 45.2;      // Número com casas  decimais
-int leitura_bruta = 3100;   // Número inteiro
-bool is_chuva = false;     // Verdadeiro ou Falso
-String mensagem = "Solo seco"; // Texto
+- float umidade = 45.2;      // Número com casas  decimais
+- int leitura_bruta = 3100;   // Número inteiro
+- bool is_chuva = false;     // Verdadeiro ou Falso
+- String mensagem = "Solo seco"; // Texto
 
 // Você não pode fazer isso:
 // umidade = "texto"; // Erro! umidade só aceita números.
