@@ -2,7 +2,7 @@
 ## Passo a passo para aprender Python e C++
 
 ## Variáveis (Guardar os Dados) 
-No Python a tipagem é dinâmica. Python é flexível, não precisa declarar o tipo de variável. 
+No #Python# a tipagem é dinâmica. Python é flexível, não precisa declarar o tipo de variável. 
 
 - Cria uma variável chamada 'umidade' e guarda um número
 umidade = 45.2
