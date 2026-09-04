@@ -24,7 +24,7 @@ Já para C++ que é tipagem estática, precisa-se declarar o tipo da variável a
 
 ## Condicionais (Tomar Decisões)
 
- Para o Python: 
+- Para o Python: 
 
 umidade = ler_sensor()
 
@@ -35,7 +35,7 @@ elif umidade < 50:
 else:
     print("Solo molhado")  # Ação se todas as anteriores forem falsas
 
-Para C++
+- Para C++
 
 float umidade = lerSensor();
 
