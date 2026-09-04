@@ -4,11 +4,11 @@
 ## Variáveis (Guardar os Dados) 
 No Python a tipagem é dinâmica. Python é flexível, não precisa declarar o tipo de variável. 
 
-# Cria uma variável chamada 'umidade' e guarda um número
+Cria uma variável chamada 'umidade' e guarda um número
 umidade = 45.2
 print(umidade)
 
-# A mesma variável pode ser reutilizada para texto
+A mesma variável pode ser reutilizada para texto
 umidade = "valor inválido"
 print(umidade)
 
